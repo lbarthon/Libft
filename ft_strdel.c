@@ -6,12 +6,11 @@
 /*   By: lbarthon <lbarthon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/07 16:07:23 by lbarthon          #+#    #+#             */
-/*   Updated: 2018/11/24 13:45:16 by lbarthon         ###   ########.fr       */
+/*   Updated: 2019/10/13 11:33:50 by lbarthon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdlib.h>
+#include "libft.h"
 
 void	ft_strdel(char **as)
 {

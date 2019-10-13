@@ -6,7 +6,7 @@
 /*   By: lbarthon <lbarthon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/06 13:40:48 by lbarthon          #+#    #+#             */
-/*   Updated: 2018/11/16 13:29:03 by lbarthon         ###   ########.fr       */
+/*   Updated: 2019/10/13 11:40:32 by lbarthon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 
 # include <string.h>
 # include <stdlib.h>
+# include <unistd.h>
 
 /*
 ** Structure bonus part
@@ -114,6 +115,5 @@ int				ft_intlength(int n);
 char			**ft_tabcpy(char **dest, const char **src);
 int				ft_strclen(char *str, char c);
 char			*ft_strcdup(char *str, char c);
-size_t			ft_strlen_nofault(char *str);
 
 #endif

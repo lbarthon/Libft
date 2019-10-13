@@ -6,18 +6,19 @@
 /*   By: lbarthon <lbarthon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/08 10:28:58 by lbarthon          #+#    #+#             */
-/*   Updated: 2018/11/08 10:28:58 by lbarthon         ###   ########.fr       */
+/*   Updated: 2019/10/13 11:35:05 by lbarthon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include "libft.h"
 
 size_t	ft_strlen(const char *str)
 {
 	size_t i;
 
 	i = 0;
-	while (str[i])
-		i++;
+	if (str)
+		while (str[i])
+			i++;
 	return (i);
 }

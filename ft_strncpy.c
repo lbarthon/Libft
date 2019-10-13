@@ -6,11 +6,11 @@
 /*   By: lbarthon <lbarthon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/08 10:33:46 by lbarthon          #+#    #+#             */
-/*   Updated: 2018/11/08 10:33:47 by lbarthon         ###   ########.fr       */
+/*   Updated: 2019/10/13 11:36:25 by lbarthon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include "libft.h"
 
 char	*ft_strncpy(char *dest, const char *src, size_t n)
 {

@@ -6,13 +6,11 @@
 /*   By: lbarthon <lbarthon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/16 09:49:08 by lbarthon          #+#    #+#             */
-/*   Updated: 2018/11/16 10:19:21 by lbarthon         ###   ########.fr       */
+/*   Updated: 2019/10/13 11:33:00 by lbarthon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
-#include <stdlib.h>
 
 char		*ft_strcdup(char *str, char c)
 {

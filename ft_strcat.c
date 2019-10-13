@@ -6,20 +6,11 @@
 /*   By: lbarthon <lbarthon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/08 10:23:08 by lbarthon          #+#    #+#             */
-/*   Updated: 2018/11/12 13:41:43 by lbarthon         ###   ########.fr       */
+/*   Updated: 2019/10/13 11:32:50 by lbarthon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-static int	ft_strlen(char *str)
-{
-	int i;
-
-	i = 0;
-	if (str)
-		while (str[i] != '\0')
-			i++;
-	return (i);
-}
+#include "libft.h"
 
 char		*ft_strcat(char *dest, const char *src)
 {

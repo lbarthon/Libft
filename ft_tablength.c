@@ -6,11 +6,11 @@
 /*   By: lbarthon <lbarthon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/12 11:06:42 by lbarthon          #+#    #+#             */
-/*   Updated: 2018/11/12 11:07:17 by lbarthon         ###   ########.fr       */
+/*   Updated: 2019/10/13 11:39:27 by lbarthon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include "libft.h"
 
 int		ft_tablength(char **tab)
 {

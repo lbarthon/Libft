@@ -6,11 +6,11 @@
 /*   By: lbarthon <lbarthon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/08 10:23:32 by lbarthon          #+#    #+#             */
-/*   Updated: 2018/11/08 15:10:52 by lbarthon         ###   ########.fr       */
+/*   Updated: 2019/10/13 11:33:19 by lbarthon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include "libft.h"
 
 char	*ft_strchr(const char *str, int c)
 {

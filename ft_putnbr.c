@@ -6,16 +6,11 @@
 /*   By: lbarthon <lbarthon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/08 12:10:34 by lbarthon          #+#    #+#             */
-/*   Updated: 2018/11/09 09:45:33 by lbarthon         ###   ########.fr       */
+/*   Updated: 2019/10/13 11:32:08 by lbarthon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-static void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+#include "libft.h"
 
 void		ft_putnbr(int nb)
 {

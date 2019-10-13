@@ -6,23 +6,11 @@
 /*   By: lbarthon <lbarthon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/08 11:53:26 by lbarthon          #+#    #+#             */
-/*   Updated: 2018/11/13 13:37:35 by lbarthon         ###   ########.fr       */
+/*   Updated: 2019/10/13 11:42:31 by lbarthon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
-#include <stdlib.h>
-
-static int	ft_strlen(char const *str)
-{
-	int i;
-
-	i = 0;
-	if (str)
-		while (str[i])
-			i++;
-	return (i);
-}
+#include "libft.h"
 
 static int	ft_start_spaces(char const *str)
 {
@@ -70,7 +58,7 @@ char		*ft_strtrim(char const *s)
 
 	if (is_full_blank(s))
 	{
-		if (!(str = (char*)malloc(sizeof(char) * 0)))
+		if (!(str = (char*)malloc(1)))
 			return (NULL);
 		str[0] = '\0';
 		return (str);
@@ -78,11 +66,11 @@ char		*ft_strtrim(char const *s)
 	start = ft_start_spaces(s);
 	end = ft_end_spaces(s);
 	i = ft_strlen(s) + 1 - end - start;
-	if (!(str = (char*)malloc(sizeof(char) * i)))
+	if (!(str = (char*)malloc(i)))
 		return (NULL);
 	i = start;
 	j = 0;
-	while (i < ft_strlen(s) - end && str)
+	while (i < (int)(ft_strlen(s) - end) && str)
 		str[j++] = s[i++];
 	str[j] = '\0';
 	return (str);
